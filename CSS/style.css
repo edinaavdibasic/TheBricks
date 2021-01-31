@@ -1,0 +1,98 @@
+body{
+
+	background-image: url("../IMG/bck2.png");
+	background-position: center;
+	background-size: cover;
+	font-family: fontimport;
+
+}
+@font-face{
+	font-family: fontimport;
+	src:url("../FONT/BrookeShappell10.ttf");
+}
+#title{
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+	font-size: 100px;
+	font-family: fontimport;
+	color: #2F1F39;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+}
+#main{
+	margin: 20px auto;
+	max-width: 610px;
+	max-height: 610px;
+	background-color: rgba(47, 31, 57, 0.8);
+	border: 5px solid #2F1F39;
+	border-radius: 20px;
+}
+#button{
+	margin: -5px auto;
+	text-align: center;
+	max-width: 610px;
+}
+.button{
+	background-color: transparent;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	border: 4px solid;
+	display: inline-block;
+	cursor: pointer;
+	color: #2F1F39;
+	font-family: fontimport;
+	font-size: 30px;
+	padding: 9px 18px 0px 18px;
+	text-decoration: none;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+}
+.button:hover{
+	color: #056FAA;
+}
+.score{
+	margin-top: -40px;
+	font-family: fontimport;
+	font-size: 50px;
+	color: #2F1F39;	
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+}
+.difficulty{
+	font-family: fontimport;
+	font-size: 20px;
+	color: #2F1F39;	
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+}
+#info{
+	position: absolute;
+	top: 50%;
+	max-left: 35%;
+	padding-left: 5px;
+	max-width: 600px;
+	text-align: center;
+	font-size: 30px;
+	font-family: fontimport;
+	color: #056FAA;
+	visibility: hidden;
+}
+mark{
+	background-color: transparent;
+	color: #2F1F39;
+}
+
+.atitle{
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+.atext{
+	color: #754F78;
+	font-size: 20px;
+}
